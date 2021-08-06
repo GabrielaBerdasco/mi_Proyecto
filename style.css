@@ -14,11 +14,10 @@ body {
 body > header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(#335c67), to(#739eaa));
   background-image: linear-gradient(to bottom, black, #335c67, #739eaa);
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  margin-top: 0px;
+  height: 10rem;
   width: auto;
+  padding: 20px;
+  margin-top: 0px;
   border-bottom: #faf4cc solid 3px;
 }
 
@@ -44,8 +43,8 @@ body > header > nav > div > div > ul > li {
   font-size: small;
   list-style-type: none;
   margin: 9px;
-  padding: 0px 18px;
-  border: #faf4cc solid 2px;
+  /* padding: 0px 18px;
+                    border: $colorTextNav solid ($border/3)*2;*/
   border-radius: 5px;
 }
 
@@ -59,7 +58,7 @@ body > header > nav > div > div > ul > li > a:hover {
 }
 
 body > header > nav > div > div > ul > li:hover {
-  background-color: #faf4cc;
+  background-color: black;
 }
 
 #logoProvisorio {
@@ -71,8 +70,8 @@ body > header > nav > div > div > ul > li:hover {
 }
 
 #logoProvisorio:hover {
-  -webkit-transform: translate(5px, 10px);
-          transform: translate(5px, 10px);
+  -webkit-transform: translate(1px, 1px);
+          transform: translate(1px, 1px);
   -webkit-transition: 2s;
   transition: 2s;
 }
@@ -80,7 +79,7 @@ body > header > nav > div > div > ul > li:hover {
 #nombreEmpresa {
   font-family: 'Satisfy', cursive;
   text-align: center;
-  font-size: xx-large;
+  /* font-size: xx-large; */
   color: #fffbe9;
 }
 
