@@ -43,8 +43,6 @@ body > header > nav > div > div > ul > li {
   font-size: small;
   list-style-type: none;
   margin: 9px;
-  /* padding: 0px 18px;
-                    border: $colorTextNav solid ($border/3)*2;*/
   border-radius: 5px;
 }
 
@@ -79,7 +77,6 @@ body > header > nav > div > div > ul > li:hover {
 #nombreEmpresa {
   font-family: 'Satisfy', cursive;
   text-align: center;
-  /* font-size: xx-large; */
   color: #fffbe9;
 }
 

@@ -34,8 +34,6 @@ body{
                     font-size:small;
                     list-style-type:none;
                     margin: ($margin/2)-1;
-                    /* padding: 0px 18px;
-                    border: $colorTextNav solid ($border/3)*2;*/
                     border-radius: $border+2; 
                     >a{
                         color: $colorTextNav;
@@ -66,7 +64,6 @@ body{
 #nombreEmpresa{
     font-family: 'Satisfy', cursive;
     text-align: center;
-    /* font-size: xx-large; */
     color: #fffbe9;
 }
 .sectYAsid{
