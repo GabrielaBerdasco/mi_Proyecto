@@ -20,9 +20,8 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="./assets/bigote-1_0.jpg" alt="logo anteojos y bigote" id="logoProvisorio"></a>
-        <h1 id="nombreEmpresa">Moliendas CDB</h1>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: inherit">
+        <a href="index.html"><img src="./assets/logoBaby.png" alt="logo anteojos y bigote" id="logoProvisorio"></a>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: inherit">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,15 +31,23 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                   </li>
+                  <hr>
                   <li class="nav-item">
                     <a class="nav-link" href="aboutUs.html">Sobre nosotros</a>
                   </li>
+                  <hr>
                   <li class="nav-item">
-                    <a class="nav-link" href="products.html">Productos</a>
+                    <a class="nav-link" href="granza.html">Granza</a>
                   </li>
+                  <hr>
                   <li class="nav-item">
-                    <a class="nav-link" href="shoppingCart.html">Carro de compra</a>
+                    <a class="nav-link" href="macetas.html">Macetas</a>
                   </li>
+                  <hr>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pisos.html">Pisos</a>
+                  </li>
+                  <hr>
                 </ul>
               </div>
             </div>
@@ -48,24 +55,55 @@
     </header>
     <div class="sectYAsid">
       <section id="ind">
-      <h1 class="encabezadoDestacado animate__animated animate__pulse"><a href="products.html">Ofertas destacadas</a></h1>
-        <article class="artInicio">
-            <h3>Granza 10 x bolsa 20 kg</h3>
-            <img src="./assets/granza3.jpg" alt="granza en jardín">
-            <h3 class="artInicio__titulo--destacado">$350 por bolsa</h3>
-            <p>Granza de mármol para jardines, tamaño grande.</p>
-        </article>
-        <article class="artInicio">
-            <h3>Borde atérmico 40 x 40</h3>
-            <img src="./assets/oceanico.jpg" alt="piscina con bordes atérmicos">
-            <h3 class="artInicio__titulo--destacado">$200 por unidad</h3>
-            <p>Borde ballena atérmico para piscina, color arena.</p>
+        <article>
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="granza.html"><img src="./assets/piedrasBlancas02.jpg" class="d-block w-100 inicioPic" alt="Imagen granza blanca"></a>
+                <div class="carousel-caption d-md-block">
+                  <h5>Granza natural para jardín</h5>
+                  <p class="d-none d-sm-block">Piedras naturales molidas para decoración de jardines y paisajismo.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="pisos.html"><img src="./assets/piscinaCarrousel02.jpg" class="d-block w-100 inicioPic" alt="Imagen pisos y piscina"></a>
+                <div class="carousel-caption d-md-block">
+                  <h5>Baldosa atérmica</h5>
+                  <p class="d-none d-sm-block">Loseta atérmicas y antideslizantes. Ideal para piscinas, solariums, escaleras y terrazas.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="macetas.html"><img src="./assets/macetaCarrousel02.jpg" class="d-block w-100 inicioPic" alt="Imagen maceta con plantas"></a>
+                <div class="carousel-caption d-md-block">
+                  <h5>Maceta de madera reciclada</h5>
+                  <p class="d-none d-sm-block">Macetas realizadas con madera reciclada de pallets, se entregan lijadas y barnizadas.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </article>
     </section>
     <aside class="apartadoInicio">
-        <p class="apartadoInicio__parrafo--destacado lead">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos 
-        harum necessitatibus minima, accusamus id tempora dolorum tenetur voluptas 
-        asperiores assumenda magnam ea fugit ad delectus voluptatem molestiae dicta a excepturi."</p>
+        <img src="" alt="">
+        <h5>Magdalena Ricarte</h5>
+        <p class="apartadoInicio__parrafo--destacado lead">"Tienen productos de muy buena calidad y la atención es excelente"</p>
+        <hr>
+        <img src="" alt="">
+        <h5>Facundo Paez</h5>
+        <p class="apartadoInicio__parrafo--destacado lead">"Pedí envío a domicilio, llegó todo en tiempo y forma, muy recomendable"</p>
     </aside>
   </div>
   <footer>
@@ -75,11 +113,11 @@
             ©Moliendas CDB by Gabriela Berdasco
           </h6>
             <a class="navbar-brand" href="https://www.instagram.com/?hl=es-la">
-            <img src="./assets/1200px-Instagram.svg.png" alt="Logo Instagram" width="30" height="24">
+            <img src="./assets/imagenesInstagram04.png" alt="Logo Instagram" width="30" height="24">
             </a>
         
             <a class="navbar-brand" href="https://es-la.facebook.com/">
-            <img src="./assets/1200px-Facebook_icon.svg.png" alt="Logo Facebook" width="30" height="24">
+            <img src="./assets/imagenesFacebook03.png" alt="Logo Facebook" width="30" height="24">
             </a>
         </div>
     </div>

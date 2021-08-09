@@ -6,19 +6,18 @@
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
-  background-color: #f3f8f1;
   position: relative;
   min-height: 100vh;
 }
 
 body > header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(#335c67), to(#739eaa));
-  background-image: linear-gradient(to bottom, black, #335c67, #739eaa);
-  height: 10rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f3e7e7), to(#faedcd));
+  background-image: linear-gradient(to bottom, #f3e7e7, #faedcd);
+  min-height: 10rem;
   width: auto;
   padding: 20px;
   margin-top: 0px;
-  border-bottom: #faf4cc solid 3px;
+  border-bottom: #c2dbcf solid 3px;
 }
 
 body > header > nav > div > div {
@@ -47,37 +46,25 @@ body > header > nav > div > div > ul > li {
 }
 
 body > header > nav > div > div > ul > li > a {
-  color: #faf4cc;
+  color: #c2dbcf;
   text-decoration: none;
 }
 
-body > header > nav > div > div > ul > li > a:hover {
-  color: #335c67;
-}
-
 body > header > nav > div > div > ul > li:hover {
-  background-color: black;
+  background-color: #c2dbcf;
 }
 
 #logoProvisorio {
-  width: 150px;
+  width: 300px;
   height: 110px;
   float: left;
-  border: black solid 3px;
-  border-radius: 20px;
 }
 
 #logoProvisorio:hover {
-  -webkit-transform: translate(1px, 1px);
-          transform: translate(1px, 1px);
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
   -webkit-transition: 2s;
   transition: 2s;
-}
-
-#nombreEmpresa {
-  font-family: 'Satisfy', cursive;
-  text-align: center;
-  color: #fffbe9;
 }
 
 .sectYAsid {
@@ -87,43 +74,16 @@ body > header > nav > div > div > ul > li:hover {
 }
 
 .sectYAsid > #ind {
-  margin: 9px;
-  padding-top: 20px;
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-flex: 3;
       -ms-flex-positive: 3;
           flex-grow: 3;
-  border: firebrick 3px solid;
-}
-
-.sectYAsid > #ind .encabezadoDestacado {
-  padding: 20px;
-  font-weight: 500;
-  list-style-type: none;
-  text-decoration: underline;
-}
-
-.sectYAsid > #ind .encabezadoDestacado a {
-  color: #bb3e03;
-  text-decoration: none;
-}
-
-.sectYAsid > #ind .encabezadoDestacado:hover {
-  -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
 }
 
 .apartadoInicio {
@@ -135,25 +95,26 @@ body > header > nav > div > div > ul > li:hover {
           flex-grow: 1;
   height: auto;
   padding: 19px;
-  background-color: #f5c47a;
-  border: #faf4cc solid 4px;
+  background-color: #faedcd;
+  border: #c2dbcf solid 4px;
   border-radius: 5px;
 }
 
-.artInicio {
-  padding: 0px 10px 0px 25px;
-}
-
-.artInicio > .artInicio__titulo--destacado {
-  font-style: italic;
-  font-weight: bold;
+.apartadoInicio .apartadoInicio__parrafo--destacado {
+  color: black;
+  font: bold italic xx-large serif;
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 25px;
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(#335c67), to(#739eaa));
-  background-image: linear-gradient(to top, black, #335c67, #739eaa);
-  height: 5rem;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f3e7e7), to(#faedcd));
+  background-image: linear-gradient(to top, #f3e7e7, #faedcd);
   width: 100%;
+  height: 5rem;
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -161,94 +122,31 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-top: #faf4cc solid 3px;
+  border-top: #c2dbcf solid 3px;
 }
 
 footer > a {
-  text-decoration: none;
-  color: #faf4cc;
-  font-size: smaller;
   margin: 9px;
   padding: 0px 9px;
 }
 
 h3 {
   font-weight: bolder;
-  color: #bb3e03;
 }
 
 p {
   font-weight: normal;
-  color: #2a9d8f;
+  color: black;
 }
 
 h2 {
+  padding: 2rem;
   font-style: italic;
-  color: #e63946;
+  color: #cc6633;
 }
 
-.carroDeCompra {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.carroDeCompra .carroDeCompra__titulo--color {
-  color: #bb3e03;
-  padding: 25px;
-  font-weight: bolder;
-  font-size: xx-large;
-  font-style: italic;
-  text-align: center;
-}
-
-.carroDeCompra .carroDeCompra__tabla {
-  border: 3px solid;
-  margin: 20px;
-  padding: 30px;
-}
-
-.carroDeCompra .carroDeCompra__tabla th {
-  background-color: #457b9d;
-  border: 1px solid;
-  padding: 0px 7px;
-}
-
-.carroDeCompra .carroDeCompra__tabla tr, .carroDeCompra .carroDeCompra__tabla td {
-  background-color: #a8dadc;
-  border: 1px solid;
-  padding: 0px 7px;
-}
-
-.carroDeCompra .carroDeCompra__total {
-  color: #bb3e03;
-  padding: 50px 50px 50px 0px;
-  font-weight: bolder;
-  font-size: xx-large;
-  font-style: italic;
-  text-align: center;
-}
-
-.carroDeCompra .carroDeCompra__formaDePFinal {
-  padding: 25px;
-}
-
-.apartadoInicio__parrafo--destacado {
-  font-weight: bold;
-  color: #ca6702;
-  font: bold italic xx-large serif;
-  text-align: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 25px;
+h5 {
+  color: #cc6633;
 }
 
 .productsPic {
@@ -283,12 +181,12 @@ h2 {
           align-items: center;
   margin: 15px;
   padding: 25px;
-  border: cadetblue solid 3px;
-  background-color: rgba(128, 128, 128, 0.226);
+  background-color: #faedcda9;
+  border: #c2dbcf solid 3px;
 }
 
 .sobreNosotros .sobreNosotros__descripcion .sobreNosotros__descripción--destacado {
-  color: #bb3e03;
+  color: black;
   font: bold italic x-large serif;
   text-align: center;
   width: -webkit-fit-content;
@@ -303,9 +201,9 @@ h2 {
   grid-area: sobreNosotros__ubicacion;
 }
 
-.sobreNosotros .sobreNosotros__ubicacion > .sobreNosotros__ubicacion--subrayado {
+.sobreNosotros .sobreNosotros__ubicacion > .sobreNosotros__ubicacion--color {
   padding: 0 0 10px 25px;
-  text-decoration: underline;
+  color: #c2dbcf;
 }
 
 .sobreNosotros .sobreNosotros__ubicacion > div {
@@ -326,8 +224,8 @@ h2 {
 }
 
 .sobreNosotros .sobreNosotros__formulario .sobreNosotros__formulario--borde {
-  border: cadetblue solid 3px;
   padding: 5px;
+  border: #c2dbcf solid 3px;
 }
 
 .sobreNosotros .sobreNosotros__formulario .sobreNosotros__formulario--bordeInterno {
@@ -336,6 +234,7 @@ h2 {
 }
 
 .sobreNosotros .sobreNosotros__formulario fieldset {
+  padding: 10px;
   border: none;
 }
 
@@ -349,25 +248,30 @@ h2 {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   footer {
     width: 100%;
     height: auto;
   }
   div.sectYAsid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-rows: 60% 35%;
-        grid-template-rows: 60% 35%;
-    grid-row-gap: 60px;
-    -ms-flex-line-pack: justify;
-        align-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #logoProvisorio {
-    width: 100px;
+    width: 250px;
     height: 85px;
   }
   #ind {
@@ -383,7 +287,7 @@ h2 {
   }
   .apartadoInicio {
     margin: 40px;
-    overflow: scroll;
+    overflow-y: scroll;
     font-size: smaller;
   }
   .sobreNosotros {
@@ -418,11 +322,13 @@ h2 {
 
 @media only screen and (min-width: 600px) and (max-width: 960px) {
   div.sectYAsid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-rows: 60% 35%;
-        grid-template-rows: 60% 35%;
-    grid-gap: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #ind {
     height: -webkit-fit-content;
@@ -431,12 +337,12 @@ h2 {
   }
   .apartadoInicio {
     margin-top: 40px;
-    overflow: scroll;
+    overflow-y: scroll;
     font-size: smaller;
   }
   #logoProvisorio {
-    width: 110px;
-    height: 95px;
+    width: 250px;
+    height: 85px;
   }
   .sobreNosotros {
     display: -webkit-box;
