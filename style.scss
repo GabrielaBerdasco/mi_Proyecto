@@ -208,17 +208,24 @@ h5{
             font-size: smaller;
         }
         .sobreNosotros{
-        display: flex;
-        flex-direction: column;
-            .sobreNosotros__descripcion{
             display: flex;
             flex-direction: column;
-            overflow: hidden;
-            }
-            .sobreNosotros__formulario--bordeInterno{
+            .sobreNosotros__descripcion{
                 display: flex;
                 flex-direction: column;
-            }       
+                overflow: hidden;
+            }
+            .sobreNosotros__formulario{
+                margin-left: 5px;    
+                .sobreNosotros__formulario--bordeInterno{
+                display: flex;
+                flex-direction: column;
+                }       
+            }
+            .sobreNosotros__ubicacion>div{
+            @include sizes(300px, 200px);
+            margin-left: $margin/4;
+            }
         }
     }
     

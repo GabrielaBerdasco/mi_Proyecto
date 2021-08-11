@@ -309,7 +309,10 @@ h5 {
             flex-direction: column;
     overflow: hidden;
   }
-  .sobreNosotros .sobreNosotros__formulario--bordeInterno {
+  .sobreNosotros .sobreNosotros__formulario {
+    margin-left: 5px;
+  }
+  .sobreNosotros .sobreNosotros__formulario .sobreNosotros__formulario--bordeInterno {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -317,6 +320,11 @@ h5 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .sobreNosotros .sobreNosotros__ubicacion > div {
+    width: 300px;
+    height: 200px;
+    margin-left: 5px;
   }
 }
 
