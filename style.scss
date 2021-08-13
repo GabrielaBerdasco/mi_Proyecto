@@ -54,11 +54,11 @@ body{
         }
     }
 }
-#logoProvisorio{
+#logoFinal{
     @include sizes(300px, 110px);
     float: left;
 }
-#logoProvisorio:hover{
+#logoFinal:hover{
     transform: translate(2px, 2px);
     transition: 2s;
 }
@@ -73,7 +73,7 @@ body{
 }
 
 .apartadoInicio{
-    margin: $margin;
+    margin: ($margin)+3;
     flex-basis: 300px;
     flex-grow: 1;
     height: auto;
@@ -83,7 +83,7 @@ body{
     border-radius: $border+2;  
     .apartadoInicio__parrafo--destacado {
         color: black;
-        font: bold italic xx-large serif;
+        font: bold italic x-large serif;
         text-align: center;
         width:fit-content;
         padding: 25px;
@@ -132,16 +132,16 @@ h5{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: ($margin/2)+5;
+        margin: 40px 15px;
         padding: 25px;
         background-color: #faedcda9;
         @include borde($border);
         .sobreNosotros__descripción--destacado{
             color: black;
             font: bold italic x-large serif;
-            text-align: center;
+            text-align: left;
             width:fit-content;
-            padding: 25px;
+            padding: 20px;
         }
     }
     .sobreNosotros__ubicacion{
@@ -194,7 +194,7 @@ h5{
             display: flex;
             flex-direction: column;
         }
-        #logoProvisorio{
+        #logoFinal{
             @include sizes(250px, 85px);
         }
         #ind{
@@ -243,7 +243,7 @@ h5{
             overflow-y: scroll;
             font-size: smaller;
         }
-        #logoProvisorio{
+        #logoFinal{
             @include sizes(250px, 85px);
         }
         .sobreNosotros{

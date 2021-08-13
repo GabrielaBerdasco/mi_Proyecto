@@ -54,13 +54,13 @@ body > header > nav > div > div > ul > li:hover {
   background-color: #c2dbcf;
 }
 
-#logoProvisorio {
+#logoFinal {
   width: 300px;
   height: 110px;
   float: left;
 }
 
-#logoProvisorio:hover {
+#logoFinal:hover {
   -webkit-transform: translate(2px, 2px);
           transform: translate(2px, 2px);
   -webkit-transition: 2s;
@@ -87,7 +87,7 @@ body > header > nav > div > div > ul > li:hover {
 }
 
 .apartadoInicio {
-  margin: 20px;
+  margin: 23px;
   -ms-flex-preferred-size: 300px;
       flex-basis: 300px;
   -webkit-box-flex: 1;
@@ -102,7 +102,7 @@ body > header > nav > div > div > ul > li:hover {
 
 .apartadoInicio .apartadoInicio__parrafo--destacado {
   color: black;
-  font: bold italic xx-large serif;
+  font: bold italic x-large serif;
   text-align: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -179,7 +179,7 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 15px;
+  margin: 40px 15px;
   padding: 25px;
   background-color: #faedcda9;
   border: #c2dbcf solid 3px;
@@ -188,11 +188,11 @@ h5 {
 .sobreNosotros .sobreNosotros__descripcion .sobreNosotros__descripción--destacado {
   color: black;
   font: bold italic x-large serif;
-  text-align: center;
+  text-align: left;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 25px;
+  padding: 20px;
 }
 
 .sobreNosotros .sobreNosotros__ubicacion {
@@ -270,7 +270,7 @@ h5 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #logoProvisorio {
+  #logoFinal {
     width: 250px;
     height: 85px;
   }
@@ -348,7 +348,7 @@ h5 {
     overflow-y: scroll;
     font-size: smaller;
   }
-  #logoProvisorio {
+  #logoFinal {
     width: 250px;
     height: 85px;
   }
