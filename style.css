@@ -126,8 +126,8 @@ footer {
 }
 
 footer > a {
-  margin: 9px;
-  padding: 0px 9px;
+  margin-top: 9px;
+  padding-right: 9px;
 }
 
 h3 {
@@ -259,7 +259,7 @@ h5 {
   }
   footer {
     width: 100%;
-    height: auto;
+    height: 7rem;
   }
   div.sectYAsid {
     display: -webkit-box;
@@ -308,6 +308,10 @@ h5 {
         -ms-flex-direction: column;
             flex-direction: column;
     overflow: hidden;
+    /*  .sobreNosotros__descripcion--tamañoImagen{
+                    width: 10rem;
+                    height: 8rem;
+                } */
   }
   .sobreNosotros .sobreNosotros__formulario {
     margin-left: 5px;
@@ -322,7 +326,7 @@ h5 {
             flex-direction: column;
   }
   .sobreNosotros .sobreNosotros__ubicacion > div {
-    width: 300px;
+    width: 270px;
     height: 200px;
     margin-left: 5px;
   }
