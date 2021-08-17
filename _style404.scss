@@ -1,0 +1,31 @@
+
+h1{
+    margin: 0px;
+}
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+.error__contenedor{
+    text-align: center;
+    h1{
+        font-size: 60px;
+        color: #bb3e03;
+    }
+    p{
+        font-size: 18px;
+        color: #bb3e03;
+    }
+}
+.error__contenedor--animacion{
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count:infinite;
+}
+footer{
+    position: relative;
+}

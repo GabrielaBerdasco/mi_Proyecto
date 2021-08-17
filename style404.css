@@ -1,0 +1,42 @@
+body {
+  margin: opx;
+  font-family: 'Satisfy', cursive;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(#335c67), to(#739eaa));
+  background-image: linear-gradient(to bottom, black, #335c67, #739eaa);
+}
+
+h1 {
+  margin: 0px;
+}
+
+.error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  width: 100%;
+}
+
+.error__contenedor {
+  text-align: center;
+  color: white;
+}
+
+.error__contenedor h1 {
+  font-size: 60px;
+}
+
+.error__contenedor p {
+  font-size: 18px;
+}
+/*# sourceMappingURL=style404.css.map */

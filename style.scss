@@ -1,3 +1,4 @@
+@import "style404";
 
 $color1:#cc6633;
 $colorTextNav: #c2dbcf;
@@ -110,7 +111,7 @@ p {
     color: black;
 }
 h2 {
-    padding: 2rem;;
+    padding: 2rem;
     font-style: italic;
     color: $color1;
 }
@@ -224,7 +225,7 @@ h5{
             }
             .sobreNosotros__ubicacion>div{
             @include sizes(270px, 200px);
-            margin-left: $margin/4;
+            margin-left: $margin/3;
             }
         }
     }

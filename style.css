@@ -1,4 +1,53 @@
 @charset "UTF-8";
+h1 {
+  margin: 0px;
+}
+
+.error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+  width: 100%;
+}
+
+.error__contenedor {
+  text-align: center;
+}
+
+.error__contenedor h1 {
+  font-size: 60px;
+  color: #bb3e03;
+}
+
+.error__contenedor p {
+  font-size: 18px;
+  color: #bb3e03;
+}
+
+.error__contenedor--animacion {
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+footer {
+  position: relative;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -308,10 +357,6 @@ h5 {
         -ms-flex-direction: column;
             flex-direction: column;
     overflow: hidden;
-    /*  .sobreNosotros__descripcion--tamañoImagen{
-                    width: 10rem;
-                    height: 8rem;
-                } */
   }
   .sobreNosotros .sobreNosotros__formulario {
     margin-left: 5px;
@@ -328,7 +373,7 @@ h5 {
   .sobreNosotros .sobreNosotros__ubicacion > div {
     width: 270px;
     height: 200px;
-    margin-left: 5px;
+    margin-left: 6.66667px;
   }
 }
 
