@@ -205,8 +205,12 @@ h5{
         }
         .apartadoInicio{
             margin: $margin*2;
+            padding-top: 10px;
             overflow-y: scroll;
             font-size: smaller;
+            .apartadoInicio__parrafo--destacado{
+                padding: 0px;
+            }
         }
         .sobreNosotros{
             display: flex;

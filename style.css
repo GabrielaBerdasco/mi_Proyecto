@@ -336,8 +336,12 @@ h5 {
   }
   .apartadoInicio {
     margin: 40px;
+    padding-top: 10px;
     overflow-y: scroll;
     font-size: smaller;
+  }
+  .apartadoInicio .apartadoInicio__parrafo--destacado {
+    padding: 0px;
   }
   .sobreNosotros {
     display: -webkit-box;
